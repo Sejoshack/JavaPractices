@@ -1,0 +1,57 @@
+/*Main background */
+.root{
+    -fx-background-color:lightgray;
+    -fx-font-family:"Arial";
+
+}
+
+/*Form title */
+.title{
+    -fx-font-size:24px;
+    -fx-font-weight:bold;
+    -fx-text-field:darkgreen;
+
+}
+
+/*Lbels */
+.text-field{
+    -fx-pref-width:230px;
+    -fx-pref-height:32px;
+}
+
+/*combobox and data picker*/
+.combo-box, .date-picker{
+    -fx-pref-width:230px;
+}
+
+/*butons*/
+.button{
+    -fx-background-color:green;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-pref-width:100px;
+    -fx-cursor:hand;
+
+}
+
+.button:hover{
+    -fx-background-color:darkgreen;
+}
+
+/* status label*/
+.status{
+    -fx-font-size:14px;
+    -fx-font-weight:bold;
+}
+
+/*erro messages*/
+.error{
+    -fx-text-fill:red;
+
+}
+
+/* success messages*/
+.success{
+    -fx-text-fill:green;
+    
+}

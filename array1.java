@@ -1,0 +1,22 @@
+import java.util.*;
+public class array1{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int[] num=new int[5];
+        for (int i=0;i<5;i++){
+            System.out.print("Enter num("+i+"):");
+            num[i]= sc.nextInt();
+            
+        }
+        System.out.println("num="+Arrays.toString(num));
+        int largest =num[0];
+        for(int number : num){
+            if(largest<number){
+                largest=number;
+                
+            }  
+        }
+        System.out.println(largest);
+        
+    }
+}
